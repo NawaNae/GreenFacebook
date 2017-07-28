@@ -27,14 +27,13 @@ function setTagBackColor(tag, color) {//都是字串 ex tag='div' 也可以是css選擇器 
 }
 function FBtoGreen() {
     setTagColor('a', 'rgba(0,50,0,100)');
-    setTagColor('span', 'rgba(0, 100, 0, 100)');
-    setTagColor('p', 'rgba(0,150,0,100)');
-    setTagBackColor('a', 'rgba(0,0,0,0)');
-    setTagBackColor('span', 'rgba(0,0,0,0)');
+   setTagColor('span', 'rgba(0, 100, 0, 100)');
+   setTagColor('p', 'rgba(0,150,0,100)');
+   setTagBackColor('a', 'rgba(0,0,0,0)');
+   setTagBackColor('span', 'rgba(0,0,0,0)');
     setTagBackColor('div', 'rgba(100,200,100,100)');
     setTagBackColor('li', 'rgba(100,200,100,100)');
     setTagBackColor('input', 'rgba(170,250,170,0)');
 }
-//FBtoGreen();//單次執行用
 setIcon('http://imgur.com/d6kJJp8.png');//改FB的icon成綠色的
-setInterval(FBtoGreen, 1000);//每秒刷新所有網頁物件背景
+setInterval(FBtoGreen, 1000);
