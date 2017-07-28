@@ -36,4 +36,4 @@ function FBtoGreen() {
     setTagBackColor('input', 'rgba(170,250,170,0)');
 }
 setIcon('http://imgur.com/d6kJJp8.png');//改FB的icon成綠色的
-setInterval(FBtoGreen, 1000);
+setInterval(FBtoGreen, 1500);
