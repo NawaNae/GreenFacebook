@@ -35,6 +35,6 @@ function FBtoGreen() {
     setTagBackColor('li', 'rgba(100,200,100,100)');
     setTagBackColor('input', 'rgba(170,250,170,0)');
 }
-FBtoGreen();
+//FBtoGreen();//單次執行用
 setIcon('http://imgur.com/d6kJJp8.png');//改FB的icon成綠色的
 setInterval(FBtoGreen, 1000);//每秒刷新所有網頁物件背景
